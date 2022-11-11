@@ -6,7 +6,7 @@ publicDir = path.join(__dirname, "build");
 
 app.use(express.static(publicDir));
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "build/index.html"));
 });
 app.get("/test", (req, res) => {
   res.json({ test: "Test Web." });
