@@ -5,12 +5,12 @@ var app = express(),
 publicDir = path.join(__dirname, "build");
 
 app.use(express.static(publicDir));
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "build/index.html"));
-});
-app.get("/test", (req, res) => {
-  res.json({ test: "Test Web." });
-});
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "build/index.html"));
+// });
+// app.get("/test", (req, res) => {
+//   res.json({ test: "Test Web." });
+// });
 
 app.listen(port, () => console.log(`Server listening on port ${port} 🔥`));
 module.exports = app;
