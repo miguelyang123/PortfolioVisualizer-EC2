@@ -4,14 +4,14 @@ var app = express(),
   path = require("path"),
   publicDir = path.join(__dirname, "public");
 
-// app.use(express.static(publicDir));
-// app.get("/", (req, res) => {
-//   res.send("Test Web.");
-// });
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(publicDir));
 app.get("/", (req, res) => {
-  res.send(path.join(__dirname, "build", "index.html"));
+  res.send("Test Web.");
 });
+// app.use(express.static(path.join(__dirname, "build")));
+// app.get("/", (req, res) => {
+//   res.send(path.join(__dirname, "build", "index.html"));
+// });
 
 app.listen(port);
 module.exports = app;
