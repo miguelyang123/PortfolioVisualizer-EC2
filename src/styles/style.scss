@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  canvas {
+    width: 50%;
+    height: auto;
+  }
+}
+.ac-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media all and (min-width: 770px) {
+  #title {
+    display: none;
+  }
+}
+@media all and (max-width: 770px) {
+  #adapt {
+    display: none;
+  }
+}
+// div {
+//   border-style: solid;
+//   border-color: black;
+// }
+.add-button {
+  margin-top: 0.5rem;
+}
+
+// .lineChart {
+//   width: 80vw;
+//   height: 45vh;
+// }
+
+//Loading animation
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid rgba(23, 15, 66, 0.8); /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+#loaderBox {
+  padding: 20vw;
+  padding-bottom: 30rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

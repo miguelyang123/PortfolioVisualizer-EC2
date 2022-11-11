@@ -1,0 +1,65 @@
+[
+  {
+    "ticker": "VIGRX",
+    "assetClass": "Stocks",
+    "nameCn": "增長型股票 ",
+    "nameEn": "Growth Stocks",
+    "proxyName": "Vanguard Growth Index Fund "
+  },
+  {
+    "ticker": "VIVAX",
+    "assetClass": "Stocks",
+    "nameCn": "價值型/收息股票 ",
+    "nameEn": "Value Stocks",
+    "proxyName": "Vanguard Value Index Fund "
+  },
+  {
+    "ticker": "VFINX",
+    "assetClass": "Stocks",
+    "nameCn": "大型股 ",
+    "nameEn": "Large Cap",
+    "proxyName": "Vanguard 500 Index Fund "
+  },
+  {
+    "ticker": "VIMSX",
+    "assetClass": "Stocks",
+    "nameCn": "中型股 ",
+    "nameEn": "Mid Cap",
+    "proxyName": "Vanguard Mid Cap Index Fund "
+  },
+  {
+    "ticker": "VFSTX",
+    "assetClass": "Bonds",
+    "nameCn": "短年期債券 ",
+    "nameEn": "Short-term Bonds",
+    "proxyName": "Vanguard Short-Term Investment Grade Fund"
+  },
+  {
+    "ticker": "VWEHX",
+    "assetClass": "Bonds",
+    "nameCn": "交易所交易債券 ",
+    "nameEn": "ETD",
+    "proxyName": "Vanguard High Yield Corporate Fund "
+  },
+  {
+    "ticker": "VGSIX",
+    "assetClass": "Alternatives",
+    "nameCn": "不動產投資信託 ",
+    "nameEn": "REIT",
+    "proxyName": "Vanguard REIT Index Fund "
+  },
+  {
+    "ticker": "DBC",
+    "assetClass": "Alternatives",
+    "nameCn": "商品",
+    "nameEn": "Commodities",
+    "proxyName": "Invesco DB Commodity Index Tracking Fund"
+  },
+  {
+    "ticker": "GC=F",
+    "assetClass": "Alternatives",
+    "nameCn": "黃金 ",
+    "nameEn": "Gold",
+    "proxyName": "Gold Futures"
+  }
+]

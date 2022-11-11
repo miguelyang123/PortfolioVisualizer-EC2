@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Stocks",
+        "displayOrder": 1
+    },
+    {
+        "name": "Bonds",
+        "displayOrder": 2
+    },
+    {
+        "name": "Alternatives",
+        "displayOrder": 3
+    }
+]

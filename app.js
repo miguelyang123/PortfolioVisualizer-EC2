@@ -2,15 +2,15 @@ var express = require("express");
 var port = process.env.PORT || 3000;
 var app = express(),
   path = require("path"),
-  publicDir = path.join(__dirname, "build");
+  publicDir = path.join(__dirname, "public");
 
 app.use(express.static(publicDir));
 // app.get("/", (req, res) => {
 //   res.send("Test Web.");
 // });
-app.get("/", (req, res) => {
-  res.send(path.join(__dirname, "build", "index.html"));
-});
+// app.get("/", (req, res) => {
+//   res.send(path.join(__dirname, "build", "index.html"));
+// });
 
 app.listen(port);
 module.exports = app;
