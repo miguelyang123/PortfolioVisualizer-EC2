@@ -2,12 +2,12 @@ var express = require("express");
 var port = process.env.PORT || 3000;
 var app = express(),
   path = require("path"),
-  publicDir = path.join(__dirname, "public");
+  publicDir = path.join(__dirname, "build");
 
 app.use(express.static(publicDir));
-// app.get("/", (req, res) => {
-//   res.send("Test Web.");
-// });
+app.get("/test", (req, res) => {
+  res.json({ test: "Test Web." });
+});
 // app.get("/", (req, res) => {
 //   res.send(path.join(__dirname, "build", "index.html"));
 // });
